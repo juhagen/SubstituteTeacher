@@ -15,6 +15,7 @@ namespace SubstituteTeacher.Models
         public string Sex { get; set; }
         public string Phone { get; set; }
         public Subject Subject { get; set; }
-
+        public string Education { get; set; }
+        public GradeSection GradeSection{ get; set; }
     }
 }
